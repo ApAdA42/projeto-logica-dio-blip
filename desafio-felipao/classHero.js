@@ -25,11 +25,6 @@ if(XP <= 0){
 }
 
 switch (classificacao){
-    case "Vilão":
-        console.log("Seu herói, chamado", heroName, "não parece ser um herói")
-        console.log("Parece um", classificacao + ", com seus", XP, " de Pontos de Experiência")
-        break
-    
     case "Cidadão":
         console.log("Seu herói, chamado", heroName + ", precisa de mais Pontos de Experpência")
         console.log("Tem certeza que", heroName, "não é apenas mais um", classificacao + ", com seus", XP, "de Pontos de Experiência?")
