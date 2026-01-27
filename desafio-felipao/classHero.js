@@ -2,9 +2,7 @@ let heroName = "Cleudosvaldo"
 let XP = 11000
 let classificacao
 
-if (XP < 0){
-    classificacao = "Vilão"
-} else if(XP === 0){
+if(XP <= 0){
     classificacao = "Cidadão"
 } else if (XP < 1000){
     classificacao = "Ferro"
