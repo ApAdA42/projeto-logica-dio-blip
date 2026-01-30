@@ -1,5 +1,7 @@
+// primeiro desafio 
+
 let heroName = "Cleudosvaldo"
-let XP = 11000
+let XP = 290
 let classificacao
 
 if(XP <= 0){
@@ -26,11 +28,11 @@ if(XP <= 0){
 
 switch (classificacao){
     case "Cidadão":
-        console.log("Seu herói, chamado", heroName + ", precisa de mais Pontos de Experpência")
-        console.log("Tem certeza que", heroName, "não é apenas mais um", classificacao + ", com seus", XP, "de Pontos de Experiência?")
+        console.log("Seu herói, chamado " + heroName + ", precisa de mais Pontos de Experpência")
+        console.log("Tem certeza que " + heroName + " não é apenas mais um " + classificacao + ", com seus " + XP + " de Pontos de Experiência?")
         break
 
     default:
-        console.log("Seu herói, chamado", heroName, "é um herói promissor")
-        console.log(heroName, "está com", XP, "de Pontos de Experiência! Atualmente com o rank:", classificacao)
+        console.log("Seu herói, chamado " + heroName + " é um herói promissor")
+        console.log(heroName + " está com " + XP + " de Pontos de Experiência! Atualmente com o rank: " + classificacao)
 }
